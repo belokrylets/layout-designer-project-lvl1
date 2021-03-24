@@ -1,1 +1,121 @@
 /** CSS STYLE **/
+@font-face {
+    font-family: 'OpenSans Regular';
+    src: url('assets/fonts/OpenSans/OpenSans-Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: 'OpenSans Bold';
+    src: url('assets/fonts/OpenSans/OpenSans-Bold.ttf');
+  }
+  @font-face {
+    font-family: 'Neucha';
+    src: url('assets/fonts/Neucha/Neucha-Regular.ttf');
+  }
+body {  
+    margin: 0px;  
+    padding: 0px;
+}
+.title {
+position: absolute;
+width: 1138px;
+height: 258px;
+left: 165px;
+top: 100px;
+}
+.header-text1 {
+position: absolute;
+width: 540px;
+height: 141px;
+left: 165px;
+top: 543px;
+}
+.info {
+    position: absolute;
+    background: #FE8A02;
+    left: 735px;
+    top: 765px;
+    padding: 12px 18px;
+    color: white; 
+    text-decoration: none;
+    font-weight: bold;
+}
+.header-text2 {
+    position: absolute;
+    width: 540px;
+    height: 186px;
+    left: 735px;
+    top: 539px;
+}
+
+display: flex;
+align-items: flex-end;
+}
+.container {
+    width: 1110px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    margin: auto; 
+}
+  p {
+    font-family: 'OpenSans Regular';
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #2A2626;
+  }
+  h1 {
+    font-family: 'Neucha', sans-serif;
+    font-size: 72px;
+    line-height: 1.2em;
+  }
+  h2 {
+    font-family: 'Neucha';
+    font-size: 60px;
+    line-height: 1.2em;
+  }
+  h3 {
+    font-family: 'Neucha';
+    font-size: 34px;
+    line-height: 1.2em;
+  }
+  .header {
+    height: 525px;
+    top: 55px;
+    right: -270px;
+  }
+
+  .bg {
+    position:relative;
+    width: 1110px;
+    padding: 100px 0;
+  }
+  .bg::before {
+    position: absolute;
+    width: 1440px;
+    height: 914px;
+    top: 0;
+    left: 0;
+  background: url(images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 10%;
+
+  content: "";
+
+    background-color: #d7ccc0;
+    
+  }
+.orange {
+    color: #FE8A02;
+}
+
+.main1 {
+position: absolute;
+width: 1082.81px;
+height: 525px;
+left: 461px;
+top: 55px;
+
+background: url(images/main.png);
+}
